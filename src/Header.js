@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './Header.css';
 
+// Components
+import MenuItem from './MenuItem.js';
+import Home from './Home.js';
+import Contact from './Contact.js';
+
 class Header extends Component {
   render() {
     return (
@@ -9,6 +14,10 @@ class Header extends Component {
         <header className="Header-header">
           <img src={logo} className="Header-logo" alt="logo" />
           <h1 className="Header-title">Raúl Torres</h1>
+          <div className="Header-menu">
+            <MenuItem onClick={this.props.onClick} text="Home" component={Home}/>
+            <MenuItem onClick={this.props.onClick} text="Contact" component={Contact}/>
+          </div>
         </header>
       </div>
     );

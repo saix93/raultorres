@@ -1,9 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Header from './Header';
+import { BrowserRouter } from 'react-router-dom'
 import registerServiceWorker from './registerServiceWorker';
+import './index.css';
 
-ReactDOM.render(<Header />, document.getElementById('header'));
-// ReactDOM.render(<Main />, document.getElementById('main'));
+// Components
+import Main from './Main';
+
+ReactDOM.render((
+  <BrowserRouter>
+    <Main />
+  </BrowserRouter>
+), document.getElementById('main'));
+
 registerServiceWorker();
