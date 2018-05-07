@@ -1,0 +1,22 @@
+{
+  "name": "raul-torres",
+  "version": "1.0.0",
+  "description": "\"# raul-torres\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saix93/raultorres.git"
+  },
+  "author": "Raúl Torres",
+  "bugs": {
+    "url": "https://github.com/saix93/raultorres/issues"
+  },
+  "homepage": "https://github.com/saix93/raultorres#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
