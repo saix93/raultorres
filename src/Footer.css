@@ -1,15 +1,26 @@
 .Footer {
-  text-align: center;
+  position: absolute;
+  display: table;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Footer-container {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .Footer-rights {
-  display: inline-block;
   text-align: left;
-  width: 50%;
+  float: left;
+  margin-left: 5%;
 }
 
 .Footer-social {
-  display: inline-block;
   text-align: right;
-  width: 50%;
+  float: right;
+  margin-right: 5%;
 }

@@ -15,8 +15,9 @@ class Header extends Component {
           <img src={logo} className="Header-logo" alt="logo" />
           <h1 className="Header-title">Raúl Torres</h1>
           <div className="Header-menu">
-            <MenuItem onClick={this.props.onClick} text="Home" component={Home}/>
-            <MenuItem onClick={this.props.onClick} text="Contact" component={Contact}/>
+            <MenuItem onClick={this.props.onClick} route="" text="Home" component={Home}/>
+            /
+            <MenuItem onClick={this.props.onClick} route="Contact" text="Contact" component={Contact}/>
           </div>
         </header>
       </div>

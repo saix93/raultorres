@@ -1,3 +1,6 @@
-.MenuItem-title {
-  color: black;
+.MenuItem-link {
+  color: #42c5f4;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
 }
