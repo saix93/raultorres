@@ -21,10 +21,6 @@ class Main extends Component {
     this.setState({ stateName: "/", componentName: Home });
   }
 
-  handleClick(newState, newComponent) {
-    this.setState({ stateName: newState, componentName: newComponent });
-  }
-
   render() {
     return (
       <div className="Main">

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
+import './Body.css';
 
 class Body extends Component {
   render() {

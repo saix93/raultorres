@@ -1,0 +1,28 @@
+.Home-photo {
+  width: 30%;
+  border-radius: 20%;
+  margin-top: 30px;
+  float: left;
+
+  /* Aplica una rotación a la imagen */
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.Home-text {
+  width: 60%;
+  float: right;
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+
+.Home-text-title {
+  
+}
+
+.Home-text-paragraph {
+  font-size: 1.5em;
+}
