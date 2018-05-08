@@ -1,0 +1,15 @@
+.Footer {
+  text-align: center;
+}
+
+.Footer-rights {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+
+.Footer-social {
+  display: inline-block;
+  text-align: right;
+  width: 50%;
+}

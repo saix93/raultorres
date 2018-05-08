@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 // Components
 import Header from './Header';
 import Body from './Body';
+import Footer from './Footer';
+
+import Home from './Home.js';
 
 class Main extends Component {
   constructor(props) {
@@ -11,6 +14,11 @@ class Main extends Component {
       stateName: null,
       componentName: null
     };
+  }
+
+  componentDidMount() {
+    // Por defecto carga el componente Home en la ruta /
+    this.setState({ stateName: "/", componentName: Home });
   }
 
   handleClick(newState, newComponent) {
@@ -22,6 +30,7 @@ class Main extends Component {
       <div className="Main">
         <Header onClick={(newState, newComponent) => this.setState({ stateName: newState, componentName: newComponent })}/>
         <Body stateName={this.state.stateName} componentName={this.state.componentName}/>
+        <Footer />
       </div>
     );
   }
