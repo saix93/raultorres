@@ -22,9 +22,9 @@ class Header extends Component {
             /
             <MenuItem onClick={this.props.onClick} route="AboutMe" text="About Me" component={AboutMe}/>
             /
-            <MenuItem onClick={this.props.onClick} route="Work" text="Recent work" component={Work}/>
-            /
             <MenuItem onClick={this.props.onClick} route="Skills" text="My skills" component={Skills}/>
+            /
+            <MenuItem onClick={this.props.onClick} route="Work" text="Recent work" component={Work}/>
             /
             <MenuItem onClick={this.props.onClick} route="Contact" text="Contact" component={Contact}/>
           </div>
