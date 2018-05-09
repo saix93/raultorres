@@ -6,6 +6,10 @@ import Body from './Body';
 import Footer from './Footer';
 
 import Home from './Home.js';
+import AboutMe from './AboutMe.js';
+import Work from './Work.js';
+import Skills from './Skills.js';
+import Contact from './Contact.js';
 
 class Main extends Component {
   constructor(props) {
@@ -17,8 +21,21 @@ class Main extends Component {
   }
 
   componentDidMount() {
-    // Por defecto carga el componente Home en la ruta /
-    this.setState({ stateName: "/", componentName: Home });
+    // Por defecto carga el componente Home en la ruta '/'
+    let route = window.location.pathname;
+    let state = "";
+    let component = null;
+
+    switch (route) {
+      case "/":         state = "/";          component = Home; break;
+      case "/AboutMe":  state = "AboutMe";    component = AboutMe; break;
+      case "/Work":     state = "Work";       component = Work; break;
+      case "/Skills":   state = "Skills";     component = Skills; break;
+      case "/Contact":  state = "Contact";    component = Contact; break;
+      default:          state = "/";          component = Home;
+    }
+
+    this.setState({ stateName: state, componentName: component });
   }
 
   render() {
