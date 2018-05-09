@@ -26,32 +26,3 @@
 .Home-text-title-span {
   color: #42c5f4;
 }
-
-.Home-linkcontainer {
-  float: left;
-  width: 100%;
-  text-align: center;
-  margin-top: 100px;
-}
-
-.Home-linkcontainer-link {
-  color: #222;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 20px;
-  border-style: round;
-  border-radius: 30px;
-  border: 2px solid #222;
-  background-color: #efefef;
-
-  /* Efecto de fade al pasar el raton por encima */
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
-}
-
-.Home-linkcontainer-link:hover {
-  background-color: #42c5f4;
-}
