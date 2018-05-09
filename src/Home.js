@@ -12,7 +12,7 @@ class Home extends Component {
       <div className="Home">
         <img src={photoRaul} className="Home-photo" alt="Raúl"/>
         <div className="Home-text">
-          <h1 className="Home-text-title">Game & Web Developer</h1>
+          <h1 className="Home-text-title">Game & <span className="Home-text-title-span">Web</span> Developer</h1>
           <p className="Home-text-paragraph">I like to use many different technologies to bring my projects to life.</p>
         </div>
         <div className="Home-linkcontainer">

@@ -23,6 +23,10 @@
   font-size: 1.5em;
 }
 
+.Home-text-title-span {
+  color: #42c5f4;
+}
+
 .Home-linkcontainer {
   float: left;
   width: 100%;
