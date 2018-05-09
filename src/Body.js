@@ -6,7 +6,7 @@ class Body extends Component {
   render() {
     return (
       <div className="Body">
-        <Route path={"/" + this.props.stateName} component={this.props.componentName}/>
+        <Route path={"/" + this.props.stateName} render={()=><this.props.componentName onClick={this.props.onClick}/>}/>
       </div>
     );
   }

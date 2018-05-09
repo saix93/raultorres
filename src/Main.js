@@ -25,7 +25,7 @@ class Main extends Component {
     return (
       <div className="Main">
         <Header onClick={(newState, newComponent) => this.setState({ stateName: newState, componentName: newComponent })}/>
-        <Body stateName={this.state.stateName} componentName={this.state.componentName}/>
+        <Body onClick={(newState, newComponent) => this.setState({ stateName: newState, componentName: newComponent })} stateName={this.state.stateName} componentName={this.state.componentName}/>
         <Footer />
       </div>
     );
