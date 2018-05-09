@@ -1,0 +1,29 @@
+.AboutMe-paragraph-cicelink {
+  color: #e34ba1;
+  
+  /* Efecto de fade al pasar el raton por encima */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.AboutMe-paragraph-cicelink:hover {
+  color: #bc3e85;
+}
+
+.AboutMe-paragraph-unitylink {
+  color: #00bcd4;
+  
+  /* Efecto de fade al pasar el raton por encima */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.AboutMe-paragraph-unitylink:hover {
+  color: #0089d4;
+}
