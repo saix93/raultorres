@@ -1,0 +1,50 @@
+/* Coloca los impares a la izq y los pares a la derecha */
+.SkillItem:nth-child(odd) {
+  float: left;
+  text-align: left;
+  border-left: black solid 3px;
+  padding-left: 30px;
+}
+
+.SkillItem:nth-child(even) {
+  float: right;
+  text-align: right;
+  border-right: black solid 3px;
+  padding-right: 30px;
+}
+
+/* Colocando también en el orden correcto las imágenes y los textos */
+.SkillItem:nth-child(odd) .SkillItem-textContainer {
+  float: left;
+  margin-left: 50px;
+}
+
+.SkillItem:nth-child(odd) .SkillItem-photo {
+  float: left;
+}
+
+.SkillItem:nth-child(even) .SkillItem-textContainer {
+  float: right;
+  margin-right: 50px;
+}
+
+.SkillItem:nth-child(even) .SkillItem-photo {
+  float: right;
+}
+
+.SkillItem {
+  margin-top: 20px;
+  width: 100%;
+  height: 150px;
+}
+
+.SkillItem-textContainer {
+  width: 60%;
+  height: 100%;
+}
+
+.SkillItem-photo {
+  width: 30%;
+  border-radius: 10px;
+  height: 100%;
+}

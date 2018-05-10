@@ -21,7 +21,7 @@ class AboutMe extends Component {
           that gave me all the insights I needed to start developing games as well as prepared me to get the <a href="https://certification.unity.com/products/certified-developer" className="AboutMe-paragraph-unitylink">Unity Certified Developer</a> title.
         </p>
         <p className="AboutMe-paragraph">
-          I am able to learn how to use a new technology in a matter of days (Take this website for example, built with ReactJS in two days!).<br/>
+          I am able to learn how to use a new technology in a matter of days.<br/>
           I love working in a team to share knowledge and solve problems. Really, i LOVE to solve problems.
         </p>
         <p className="AboutMe-paragraph">
