@@ -5,7 +5,7 @@ import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
 // Components
-import Main from './Main';
+import Main from './components/Main';
 
 ReactDOM.render((
   <BrowserRouter>

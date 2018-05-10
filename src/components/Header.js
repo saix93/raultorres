@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import logo from './images/logo.svg';
+import logo from '../images/logo.svg';
 import './Header.css';
 
 // Components
-import MenuItem from './MenuItem.js';
+import MenuItem from './auxiliar_components/MenuItem.js';
 import Home from './body_components/Home.js';
 import AboutMe from './body_components/AboutMe.js';
 import Work from './body_components/Work.js';

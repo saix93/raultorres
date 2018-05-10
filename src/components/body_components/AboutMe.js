@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './AboutMe.css';
 
 // Components
-import BodyLink from '../BodyLink.js';
+import BodyLink from '../auxiliar_components/BodyLink.js';
 import Skills from './Skills.js';
 
 class AboutMe extends Component {

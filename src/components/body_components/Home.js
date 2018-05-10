@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import photoRaul from '../images/HomeRaul.jpg';
+import photoRaul from '../../images/HomeRaul.jpg';
 import './Home.css';
 
 // Components
-import BodyLink from '../BodyLink.js';
+import BodyLink from '../auxiliar_components/BodyLink.js';
 import AboutMe from './AboutMe.js';
 
 class Home extends Component {
