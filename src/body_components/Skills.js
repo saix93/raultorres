@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // Components
-import BodyLink from './BodyLink.js';
+import BodyLink from '../BodyLink.js';
 import Work from './Work.js';
 
 class Skills extends Component {

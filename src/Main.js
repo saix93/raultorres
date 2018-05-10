@@ -5,11 +5,11 @@ import Header from './Header';
 import Body from './Body';
 import Footer from './Footer';
 
-import Home from './Home.js';
-import AboutMe from './AboutMe.js';
-import Work from './Work.js';
-import Skills from './Skills.js';
-import Contact from './Contact.js';
+import Home from './body_components/Home.js';
+import AboutMe from './body_components/AboutMe.js';
+import Work from './body_components/Work.js';
+import Skills from './body_components/Skills.js';
+import Contact from './body_components/Contact.js';
 
 class Main extends Component {
   constructor(props) {

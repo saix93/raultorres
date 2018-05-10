@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import './Header.css';
 
 // Components
 import MenuItem from './MenuItem.js';
-import Home from './Home.js';
-import AboutMe from './AboutMe.js';
-import Work from './Work.js';
-import Skills from './Skills.js';
-import Contact from './Contact.js';
+import Home from './body_components/Home.js';
+import AboutMe from './body_components/AboutMe.js';
+import Work from './body_components/Work.js';
+import Skills from './body_components/Skills.js';
+import Contact from './body_components/Contact.js';
 
 class Header extends Component {
   render() {
