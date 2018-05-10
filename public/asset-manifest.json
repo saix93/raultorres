@@ -1,8 +1,15 @@
 {
-  "main.css": "static/css/main.6b31a293.css",
-  "main.css.map": "static/css/main.6b31a293.css.map",
-  "main.js": "static/js/main.ead310db.js",
-  "main.js.map": "static/js/main.ead310db.js.map",
+  "main.css": "static/css/main.cbdc684b.css",
+  "main.css.map": "static/css/main.cbdc684b.css.map",
+  "main.js": "static/js/main.34b35faa.js",
+  "main.js.map": "static/js/main.34b35faa.js.map",
   "static\\media\\HomeRaul.jpg": "static/media/HomeRaul.36fcbe00.jpg",
-  "static\\media\\logo.svg": "static/media/logo.ee7cd8ed.svg"
+  "static\\media\\PS4Controller.jpg": "static/media/PS4Controller.96df8c03.jpg",
+  "static\\media\\angularjs.jpg": "static/media/angularjs.39a41ecc.jpg",
+  "static\\media\\logo.svg": "static/media/logo.ee7cd8ed.svg",
+  "static\\media\\maya.jpg": "static/media/maya.d5c8c012.jpg",
+  "static\\media\\nodejs.jpg": "static/media/nodejs.a75b91fc.jpg",
+  "static\\media\\reactjs.jpg": "static/media/reactjs.a5d63e30.jpg",
+  "static\\media\\ue4.jpg": "static/media/ue4.a3af68df.jpg",
+  "static\\media\\unity.jpg": "static/media/unity.3d7c84d7.jpg"
 }
