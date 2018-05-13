@@ -22,12 +22,10 @@ class Skills extends Component {
       <div className="Skills">
         <div className="Skills-list">
           <SkillItem title="Unity" img={img_unity} score="90" color="#00bcd4"
-            text="I have created a bunch of projects on my own.
-            \nNever participated in a project with more people but I am looking forward to it."/>
+            text="I have created a bunch of projects on my own.\nLooking forward to participate in a project with more people."/>
             
           <SkillItem title="Unreal Engine 4" img={img_ue4} score="75" color="#17448c"
-            text="I have developed some scripting blueprints and created a few materials.
-            \nCurrently learning C++ to avoid Visual scripting!"/>
+            text="I have developed some scripting blueprints and created a few materials.\nCurrently learning C++ to avoid Visual scripting!"/>
 
           <SkillItem title="Maya" img={img_maya} score="45" color="#34d8bd"
             text="I am not a particularly artistic person, but I have used Maya to recreate my room's furniture (without textures) and I think I did a pretty decent job."/>
@@ -39,8 +37,7 @@ class Skills extends Component {
             text="In my first job as frontend developer, I created a big part of an AngularJS application."/>
 
           <SkillItem title="ReactJS" img={img_reactjs} score="70" color="#42c5f4"
-            text="I haven't used it a lot but I decided to give it an opportunity.
-            \nThis page was built with react in less than a week."/>
+            text="I haven't used it a lot but I decided to give it an opportunity.\nThis page was built with react in less than a week."/>
 
           <SkillItem title="Gaming" img={img_ps4} score="90" color="#222"
             text="I am proud to say that I am a very proficient gamer, being able to adapt myself to any situation very quickly in any type of game."/>
