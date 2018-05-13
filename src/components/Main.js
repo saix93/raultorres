@@ -40,6 +40,9 @@ class Main extends Component {
   }
 
   render() {
+    // Para que al cambiar de ruta haga scroll hasta arriba
+    window.scrollTo(0, 0);
+
     return (
       <div className="Main">
         <Header onClick={(newState, newComponent) => this.setState({ stateName: newState, componentName: newComponent })}/>
