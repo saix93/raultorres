@@ -1,0 +1,39 @@
+.SocialNetworkList .fa {
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #efefef;
+  color: #222;
+  
+  /* Efecto de fade al pasar el raton por encima */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.SocialNetworkList .fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+}
+
+.SocialNetworkList .fa-linkedin:hover {
+  background: #007bb5;
+  color: white;
+}
+
+.SocialNetworkList .fa-google:hover {
+  background: #dd4b39;
+  color: white;
+}
+
+.SocialNetworkList .fa-github:hover {
+  background: #913399;
+  color: white;
+}

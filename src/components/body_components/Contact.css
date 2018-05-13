@@ -1,0 +1,22 @@
+.Contact {
+  text-align: center;
+}
+
+.Contact-link {
+  color: #42c5f4;
+
+  /* Efecto de fade al pasar el raton por encima */
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.Contact-link:hover {
+  color: #4174f4;
+}
+
+.Contact-social .fa {
+  border: 1px solid black;
+}
