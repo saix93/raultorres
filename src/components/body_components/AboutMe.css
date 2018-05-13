@@ -1,4 +1,25 @@
-.AboutMe-content-paragraph-cicelink {
+.AboutMe-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutMe-content-title {
+  text-align: center;
+}
+
+.AboutMe-content-container-photo {
+  float: left;
+  width: 30%;
+  height: 30%;
+  border-radius: 20%;
+  margin: 30px 20px 10px 0;
+}
+
+.AboutMe-content-container-textContainer {
+  margin-left: 30px;
+}
+
+.AboutMe-content-container-textContainer-paragraph-cicelink {
   color: #e34ba1;
   
   /* Efecto de fade al pasar el raton por encima */
@@ -9,11 +30,11 @@
   transition:.5s;
 }
 
-.AboutMe-content-paragraph-cicelink:hover {
+.AboutMe-content-container-textContainer-paragraph-cicelink:hover {
   color: #bc3e85;
 }
 
-.AboutMe-content-paragraph-unitylink {
+.AboutMe-content-container-textContainer-paragraph-unitylink {
   color: #00bcd4;
   
   /* Efecto de fade al pasar el raton por encima */
@@ -24,6 +45,6 @@
   transition:.5s;
 }
 
-.AboutMe-content-paragraph-unitylink:hover {
+.AboutMe-content-container-textContainer-paragraph-unitylink:hover {
   color: #0089d4;
 }
