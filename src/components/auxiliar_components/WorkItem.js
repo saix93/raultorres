@@ -13,7 +13,7 @@ class WorkItem extends Component {
               return <span key={key}>{item}<br/></span>
             })}
           </p>
-          {this.props.link ? <span>URL: <a href={this.props.link}>{this.props.link}</a></span> : null}
+          {this.props.link ? <span>URL: <a className="WorkItem-textContainer-link" target="_blank" href={this.props.link}>{this.props.link}</a></span> : null}
         </div>
       </div>
     );
