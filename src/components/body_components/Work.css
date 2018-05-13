@@ -1,0 +1,4 @@
+.Work-content {
+  display: flex;
+  flex-direction: column;
+}

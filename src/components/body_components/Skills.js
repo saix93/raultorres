@@ -29,9 +29,7 @@ class Skills extends Component {
           <SkillItem title="ReactJS" text="I haven't used it a lot but I heard good things about it so I decided to give it an opportunity. This very page you are navigating throught right now, was built with react in less than a week. 6/10" img={img_reactjs}/>
           <SkillItem title="Gaming" text="I am proud to say that I am a very proficient gamer, being able to adapt myself to any situation very quickly in any type of game. 9/10" img={img_ps4}/>
         </div>
-        <div className="Skills-bodyLink">
-          <BodyLink to="Work" text="My Work >" onClick={() => this.props.onClick("Work", Work)}/>
-        </div>
+        <BodyLink to="Work" text="My Work >" onClick={() => this.props.onClick("Work", Work)}/>
       </div>
     );
   }

@@ -1,0 +1,15 @@
+.WorkItem {
+  display: flex;
+  margin: 30px auto;
+  padding: 30px 0;
+  border-bottom: 1px solid black;
+}
+
+.WorkItem-photo {
+  width: 30%;
+  height: 30%;
+}
+
+.WorkItem-textContainer {
+  margin-left: 20px;
+}

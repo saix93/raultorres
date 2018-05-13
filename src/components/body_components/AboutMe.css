@@ -1,4 +1,4 @@
-.AboutMe-paragraph-cicelink {
+.AboutMe-content-paragraph-cicelink {
   color: #e34ba1;
   
   /* Efecto de fade al pasar el raton por encima */
@@ -9,11 +9,11 @@
   transition:.5s;
 }
 
-.AboutMe-paragraph-cicelink:hover {
+.AboutMe-content-paragraph-cicelink:hover {
   color: #bc3e85;
 }
 
-.AboutMe-paragraph-unitylink {
+.AboutMe-content-paragraph-unitylink {
   color: #00bcd4;
   
   /* Efecto de fade al pasar el raton por encima */
@@ -24,6 +24,6 @@
   transition:.5s;
 }
 
-.AboutMe-paragraph-unitylink:hover {
+.AboutMe-content-paragraph-unitylink:hover {
   color: #0089d4;
 }
