@@ -9,6 +9,7 @@ import Contact from './Contact.js';
 // Media
 import krosus from '../../images/Krosus.jpg';
 import splintercice from '../../images/splintercice.jpg';
+import myroom from '../../images/myroom.jpg';
 import dspbot from '../../images/DSPBot.jpg';
 import comeround from '../../images/comeround.jpg';
 import picamera from '../../images/picamera.jpg';
@@ -23,11 +24,15 @@ class Work extends Component {
           <WorkItem img={krosus} title="Krosus" link="https://www.youtube.com/watch?v=Q3-DESyvngM"
             text="This is my TFM (Trabajo de Final de Master / Master's final work) of the Unity development master I coursed in CICE.
             \nThe idea was to create a game using our own ideas, so I decided to create a turn-based RPG." />
-            
+
           <WorkItem img={splintercice} title="SplinterCICE" link="https://github.com/saix93/SplinterCICE"
             text="One of the most gratefull works I had to do in my Unity course.
             \nThis is a stealth game, the main objective is to infiltrate an enemy base and kill the commander. Then, escape.
             \n It has an intelligent AI that can hear the player and look for him" />
+
+          <WorkItem img={myroom} title="My Room"
+            text="As I said before, I am not much of an artistic person but I decided to start this project because I wanted to learn how to model simple objects.
+            \nI modeled the furniture of my room." />
 
           <WorkItem img={dspbot} title="DSP-Bot" link="https://github.com/saix93/dsp-bot"
             text="A discord bot I made to act as an assistant in our discord server.
