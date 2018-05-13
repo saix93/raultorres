@@ -2,8 +2,21 @@
   text-align: center;
 }
 
+.Contact-title {
+  margin: 50px auto;
+}
+
 .Contact-link {
-  color: #42c5f4;
+  padding: 20px;
+  margin: 5px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid #222;
+  background: #efefef;
+  color: #222;
 
   /* Efecto de fade al pasar el raton por encima */
   -o-transition:.5s;
@@ -14,9 +27,10 @@
 }
 
 .Contact-link:hover {
-  color: #4174f4;
+  background: #dd4b39;
+  color: white;
 }
 
 .Contact-social .fa {
-  border: 1px solid black;
+  border: 1px solid #222;
 }

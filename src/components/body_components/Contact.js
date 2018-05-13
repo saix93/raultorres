@@ -13,7 +13,7 @@ class Contact extends Component {
           <SocialNetworkList />
         </div>
         <h2 className="Contact-title">Or send me an email :)</h2>
-        <h2><a className="Contact-link" href="mailto:r.torresgonzalez.93@gmail.com">r.torresgonzalez.93@gmail.com</a></h2>
+        <h2 className="Contact-title"><a className="Contact-link" href="mailto:r.torresgonzalez.93@gmail.com">r.torresgonzalez.93@gmail.com</a></h2>
       </div>
     );
   }
