@@ -12,7 +12,7 @@ class Body extends Component {
   render() {
     return (
       <div className="Body">
-        <Route path="//" component={Home}/>
+        <Route exact path="/" component={Home}/>
         <Route path="/AboutMe" component={AboutMe}/>
         <Route path="/Work" component={Work}/>
         <Route path="/Skills" component={Skills}/>
