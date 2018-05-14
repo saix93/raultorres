@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Main.css';
+import './App.css';
 
 // Components
 import Header from './Header';
@@ -12,7 +12,7 @@ import Work from './body_components/Work.js';
 import Skills from './body_components/Skills.js';
 import Contact from './body_components/Contact.js';
 
-class Main extends Component {
+class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -60,4 +60,4 @@ class Main extends Component {
   }
 }
 
-export default Main;
+export default App;

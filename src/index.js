@@ -5,11 +5,13 @@ import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
 // Components
-import Main from './components/Main';
+import App from './components/App';
+
+const supportsHistory = 'pushState' in window.history;
 
 ReactDOM.render((
-  <BrowserRouter>
-    <Main />
+  <BrowserRouter forceRefresh={!supportsHistory}>
+    <App />
   </BrowserRouter>
 ), document.getElementById('main'));
 
