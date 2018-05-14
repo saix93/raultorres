@@ -31,6 +31,7 @@ class Main extends Component {
 
     switch (route) {
       case "/":         state = "/";          component = Home; break;
+      case "/Home":     state = "Home";       component = Home; break;
       case "/AboutMe":  state = "AboutMe";    component = AboutMe; break;
       case "/Work":     state = "Work";       component = Work; break;
       case "/Skills":   state = "Skills";     component = Skills; break;

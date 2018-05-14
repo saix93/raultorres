@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { CSSTransitionGroup } from 'react-transition-group';
 import './Logo.css';
 
@@ -7,6 +8,9 @@ import icon_0 from '../../images/icon_0.jpg';
 import icon_1 from '../../images/icon_1.jpg';
 import icon_2 from '../../images/icon_2.jpg';
 import icon_3 from '../../images/icon_3.jpg';
+
+// Components
+import Home from '../body_components/Home.js';
 
 const icons = [icon_0, icon_1, icon_2, icon_3];
 
@@ -36,7 +40,9 @@ class Logo extends Component {
   render() {
     const img = (
       <span key={this.state.icon} className="Logo-container">
-        <img src={icons[this.state.icon]} className="Logo-container-img" alt="logo" />
+        <Link className="Logo-link" to="Home" onClick={() => this.props.onClick("Home", Home)}>
+          <img src={icons[this.state.icon]} className="Logo-container-img" alt="logo" />
+        </Link>
       </span>
     )
     

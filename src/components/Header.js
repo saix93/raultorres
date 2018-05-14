@@ -15,7 +15,7 @@ class Header extends Component {
     return (
       <div className="Header">
         <header className="Header-header">
-          <Logo />
+          <Logo onClick={this.props.onClick} />
           <h1 className="Header-title">Raúl Torres</h1>
           <div className="Header-menu">
             <MenuItem onClick={this.props.onClick} route="" text="Home" component={Home}/>
