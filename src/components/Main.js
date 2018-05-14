@@ -19,6 +19,8 @@ class Main extends Component {
       stateName: null,
       componentName: null
     };
+
+    this.onClick = this.onClick.bind(this);
   }
 
   componentDidMount() {
@@ -39,14 +41,18 @@ class Main extends Component {
     this.setState({ stateName: state, componentName: component });
   }
 
+  onClick(newState, newComponent) {
+    this.setState({ stateName: newState, componentName: newComponent });
+  }
+
   render() {
     // Para que al cambiar de ruta haga scroll hasta arriba
     window.scrollTo(0, 0);
 
     return (
       <div className="Main">
-        <Header onClick={(newState, newComponent) => this.setState({ stateName: newState, componentName: newComponent })}/>
-        <Body onClick={(newState, newComponent) => this.setState({ stateName: newState, componentName: newComponent })} stateName={this.state.stateName} componentName={this.state.componentName}/>
+        <Header onClick={this.onClick}/>
+        <Body onClick={this.onClick} stateName={this.state.stateName} componentName={this.state.componentName}/>
         <Footer />
       </div>
     );

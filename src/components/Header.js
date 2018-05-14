@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from '../images/logo.svg';
 import './Header.css';
 
 // Components
+import Logo from './auxiliar_components/Logo.js';
 import MenuItem from './auxiliar_components/MenuItem.js';
 import Home from './body_components/Home.js';
 import AboutMe from './body_components/AboutMe.js';
@@ -15,7 +15,7 @@ class Header extends Component {
     return (
       <div className="Header">
         <header className="Header-header">
-          <img src={logo} className="Header-logo" alt="logo" />
+          <Logo />
           <h1 className="Header-title">Raúl Torres</h1>
           <div className="Header-menu">
             <MenuItem onClick={this.props.onClick} route="" text="Home" component={Home}/>
