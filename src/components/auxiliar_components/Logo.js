@@ -40,7 +40,7 @@ class Logo extends Component {
   render() {
     const img = (
       <span key={this.state.icon} className="Logo-container">
-        <Link className="Logo-link" to="Home" onClick={() => this.props.onClick("Home", Home)}>
+        <Link className="Logo-link" to="">
           <img src={icons[this.state.icon]} className="Logo-container-img" alt="logo" />
         </Link>
       </span>

@@ -19,8 +19,6 @@ class App extends Component {
       stateName: null,
       componentName: null
     };
-
-    this.onClick = this.onClick.bind(this);
   }
 
   componentDidMount() {
@@ -42,8 +40,8 @@ class App extends Component {
     this.setState({ stateName: state, componentName: component });
   }
 
-  onClick(newState, newComponent) {
-    this.setState({ stateName: newState, componentName: newComponent });
+  componentWillReceiveProps() {
+    console.log("APP LOG");
   }
 
   render() {
@@ -52,8 +50,8 @@ class App extends Component {
 
     return (
       <div className="Main">
-        <Header onClick={this.onClick}/>
-        <Body onClick={this.onClick} stateName={this.state.stateName} componentName={this.state.componentName}/>
+        <Header />
+        <Body stateName={this.state.stateName} componentName={this.state.componentName}/>
         <Footer />
       </div>
     );

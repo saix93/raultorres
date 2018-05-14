@@ -6,7 +6,7 @@ class BodyLink extends Component {
   render() {
     return (
       <div className="BodyLink">
-        <Link className="BodyLink-link" to={this.props.to} onClick={this.props.onClick}>{this.props.text}</Link>
+        <Link className="BodyLink-link" to={this.props.to}>{this.props.text}</Link>
       </div>
     );
   }

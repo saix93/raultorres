@@ -15,18 +15,18 @@ class Header extends Component {
     return (
       <div className="Header">
         <header className="Header-header">
-          <Logo onClick={this.props.onClick} />
+          <Logo />
           <h1 className="Header-title">Raúl Torres</h1>
           <div className="Header-menu">
-            <MenuItem onClick={this.props.onClick} route="" text="Home" component={Home}/>
+            <MenuItem route="" text="Home" component={Home}/>
             /
-            <MenuItem onClick={this.props.onClick} route="AboutMe" text="About Me" component={AboutMe}/>
+            <MenuItem route="AboutMe" text="About Me" component={AboutMe}/>
             /
-            <MenuItem onClick={this.props.onClick} route="Skills" text="My skills" component={Skills}/>
+            <MenuItem route="Skills" text="My skills" component={Skills}/>
             /
-            <MenuItem onClick={this.props.onClick} route="Work" text="Recent work" component={Work}/>
+            <MenuItem route="Work" text="Recent work" component={Work}/>
             /
-            <MenuItem onClick={this.props.onClick} route="Contact" text="Contact" component={Contact}/>
+            <MenuItem route="Contact" text="Contact" component={Contact}/>
           </div>
         </header>
       </div>
