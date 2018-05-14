@@ -40,10 +40,6 @@ class App extends Component {
     this.setState({ stateName: state, componentName: component });
   }
 
-  componentWillReceiveProps() {
-    console.log("APP LOG");
-  }
-
   render() {
     // Para que al cambiar de ruta haga scroll hasta arriba
     window.scrollTo(0, 0);

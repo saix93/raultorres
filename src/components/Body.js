@@ -9,10 +9,6 @@ import Skills from './body_components/Skills.js';
 import Contact from './body_components/Contact.js';
 
 class Body extends Component {
-
-  componentWillReceiveProps() {
-    console.log("BODY LOG");
-  }
   render() {
     return (
       <div className="Body">
