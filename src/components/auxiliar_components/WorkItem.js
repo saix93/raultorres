@@ -14,6 +14,7 @@ class WorkItem extends Component {
             })}
           </p>
           {this.props.link ? <span>URL: <a className="WorkItem-textContainer-link" target="_blank" href={this.props.link}>{this.props.link}</a></span> : null}
+          {this.props.download ? <a href={this.props.download} target="_blank" className="WorkItem-download">Download on itch.io</a> : null}
         </div>
       </div>
     );

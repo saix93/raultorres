@@ -21,10 +21,10 @@ class Work extends Component {
     return (
       <div className="Work">
         <div className="Work-content">
-          <WorkItem img={krosus} title="Krosus" link="https://www.youtube.com/watch?v=Q3-DESyvngM"
+          <WorkItem img={krosus} title="Krosus" link="https://www.youtube.com/watch?v=Q3-DESyvngM" download="https://saix93.itch.io/krosus"
             text="This is my TFM (Trabajo de Final de Master / Master's final work) of the Unity development master I coursed in CICE.\nThe idea was to create a game using our own ideas, so I decided to create a turn-based RPG." />
 
-          <WorkItem img={splintercice} title="SplinterCICE" link="https://github.com/saix93/SplinterCICE"
+          <WorkItem img={splintercice} title="SplinterCICE" link="https://github.com/saix93/SplinterCICE" download="https://saix93.itch.io/splintercice"
             text="One of the most gratefull works I had to do in my Unity course.\nThis is a stealth game, the main objective is to infiltrate an enemy base and kill the commander. Then, escape.\n It has an intelligent AI that can hear the player and look for him" />
 
           <WorkItem img={myroom} title="My Room"
